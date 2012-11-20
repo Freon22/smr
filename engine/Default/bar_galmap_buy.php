@@ -48,7 +48,7 @@ if (isset($var['process'])) {
 	forward($container);
 }
 else {
-	//find what gal they want test
+	//find what gal they want
 	$container = array();
 	$container['url'] = 'skeleton.php';
 	$container['body'] = 'bar_main.php';
